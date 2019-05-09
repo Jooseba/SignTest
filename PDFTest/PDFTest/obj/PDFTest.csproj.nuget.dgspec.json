@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joose\\source\\repos\\PDFTest\\PDFTest\\PDFTest.csproj": {}
+    "C:\\Users\\joose\\source\\repos\\SignTest\\PDFTest\\PDFTest\\PDFTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joose\\source\\repos\\PDFTest\\PDFTest\\PDFTest.csproj": {
+    "C:\\Users\\joose\\source\\repos\\SignTest\\PDFTest\\PDFTest\\PDFTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joose\\source\\repos\\PDFTest\\PDFTest\\PDFTest.csproj",
+        "projectUniqueName": "C:\\Users\\joose\\source\\repos\\SignTest\\PDFTest\\PDFTest\\PDFTest.csproj",
         "projectName": "PDFTest",
-        "projectPath": "C:\\Users\\joose\\source\\repos\\PDFTest\\PDFTest\\PDFTest.csproj",
+        "projectPath": "C:\\Users\\joose\\source\\repos\\SignTest\\PDFTest\\PDFTest\\PDFTest.csproj",
         "packagesPath": "C:\\Users\\joose\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joose\\source\\repos\\PDFTest\\PDFTest\\obj\\",
+        "outputPath": "C:\\Users\\joose\\source\\repos\\SignTest\\PDFTest\\PDFTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
