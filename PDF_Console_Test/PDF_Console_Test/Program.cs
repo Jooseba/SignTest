@@ -14,7 +14,7 @@ namespace PDF_Console_Test
             Console.WriteLine("Hello World!");
             ComponentInfo.SetLicense("FREE-LIMITED-KEY");
 
-            using (var document = PdfDocument.Load(@"/root/SignTest/PDFTest/Hello World.pdf"))
+            using (var document = PdfDocument.Load(@"/root/SignTest/PDF_Console_Test/Hello World.pdf"))
             {
                 // Add an invisible signature field to the PDF document.
                 var signatureField = document.Form.Fields.AddSignature();
@@ -32,7 +32,7 @@ namespace PDF_Console_Test
                     try
                     {
                         // Compute the signature using the specified digital ID file and the password.
-                        certificate = new X509Certificate2(@"/root/SignTest/PDFTest/GemBoxExampleExplorer.pfx", "GemBoxPassword");
+                        certificate = new X509Certificate2(@"/root/SignTest/PDF_Console_Test/GemBoxExampleExplorer.pfx", "GemBoxPassword");
                         var cmsSigner = new CmsSigner(certificate);
                         cmsSigner.DigestAlgorithm = new Oid("2.16.840.1.101.3.4.2.1"); // SHA256
                         signedCms.ComputeSignature(cmsSigner);
