@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GemBox.Pdf" Version="13.0.0.1030" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="4.5.2" />
+  </ItemGroup>
+
+</Project>
